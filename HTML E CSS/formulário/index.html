@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+     <div>
+    <form action="#" autocomplete="on">
+        <label for="fullName">Nome completo:</label>
+        <input type="text" id="fullName" name="full_Name">
+        <br>
+        <label for="email">Seu melhor email:</label>
+        <input type="email" id="email" name="email_2">
+        <br>
+        <label for="passwordUser">Senha:</label>
+        <input type="password" id="passwordUser" name="senhaUsuário">
+        <br>
+        <br> 
+        <input class="enviar" type="submit" value="enviar">
+        <br>
+        <button onclick="minhaFuncao()">ME APERTE, POR FAVOR!!</button>
+        <br>
+        <input type="reset" value="limparCampos">
+        <br>
+        <input type="radio" value="HTML"> HTML
+        <br>
+        <input type="radio" value="CSS" name="css" id="css"> CSS
+        <br>
+        <input type="radio" name="javascript" id="javascript" value="javascript"> JavaScript
+        <br>
+        <input type="checkbox" name="mustang" id="mustang"> Mustang
+        <br>
+        <input type="checkbox" name="lamborghini" id="lamborghini"> Lamborghini
+        <br>
+        <input type="image" src="imagens/enviar.jfif" alt="submit" height="75" width="100">
+    </form>
+    <script>
+        function minhaFuncao(){           
+            prompt("Quantos anos você tem?");
+            document.write("que legal!");
+            console.log("você me apertou!");
+        }
+    </script>
+    </div>
+</body>
+</html>

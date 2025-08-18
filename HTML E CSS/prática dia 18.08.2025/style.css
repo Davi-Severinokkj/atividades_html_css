@@ -1,0 +1,22 @@
+.container_main{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+body{
+    background-color: gray  
+}
+.col-75{
+    flex: 75%;
+}
+
+.col-50{
+    flex: 50%;
+}
+button{
+    width: 75%;
+    height: 75%;
+    background-color: green;
+}
