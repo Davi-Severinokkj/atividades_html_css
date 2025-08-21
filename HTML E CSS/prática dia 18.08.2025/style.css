@@ -1,6 +1,6 @@
 .container_main{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
@@ -21,12 +21,15 @@ body{
 .col-50{
     flex: 50%;
 }
-button{
-    width: 100%;
-    height: 100%;
-    background-color: green;
-    align-content: center;
+input[type="name"], [type="email"], [type="text"], [type="number"], [type="month"]{
+    border: 3px solid  ;
+    width: 50%;
+    height: 25px;
+
 }
-.carrinho{
-    background-color: aqua;
+input[type="submit"]{
+        width: 100%;
+    height: 100%;
+    background-color: rgb(11, 203, 11);
+    align-content: center;
 }
