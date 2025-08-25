@@ -22,9 +22,11 @@ body{
     display: flex;
 }
 .header_logo{
-    padding: 10px;
-}
-.header_logo img{
+    padding: 10px;  
     width: 200px;
     height: 100;
+}
+.header_contatos{
+    display: flex;
+    justify-content: space-between;
 }
