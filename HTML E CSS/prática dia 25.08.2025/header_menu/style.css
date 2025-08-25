@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px
+}
+.header_container{
+    display: flex;
+    padding: 0px;
+    margin: auto;
+    align-items: center;
+}
+header{
+    background-color: rgb(34, 8, 162);
+    margin: 0px;
+}
