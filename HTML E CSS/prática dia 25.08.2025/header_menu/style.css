@@ -68,3 +68,8 @@ input{
     border: 1px solid;
     border-radius: 5px;
 }
+.pesquisa{
+        display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
