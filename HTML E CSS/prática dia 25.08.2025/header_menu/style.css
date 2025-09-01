@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(16, 107, 107);
 }
 
 .header_container {
@@ -34,10 +35,15 @@ body {
 /* Ícones */
 .icones {
     display: flex;
-    gap: 15px;
+    gap: 5px;
 }
 
 .icones a {
     color: black;
     font-size: 22px;
+}
+.nav_container{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
 }
