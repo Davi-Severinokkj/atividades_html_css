@@ -1,33 +1,43 @@
-body{
-    padding: 0px;
-    margin: 0px;
+body {
+    margin: 0;
+    padding: 0;
 }
-.header_container{
+
+.header_container {
     height: 120px;
     display: flex;
-    flex-wrap: wrap;    
-    flex-direction: row;
-    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between; /* separa logo e contatos */
+    align-items: center;
     background-color: #1ed760;
     padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.col-50{
-    width: 50%;
+
+/* Logo */
+.header_logo img {
+    height: 60px; /* ajuste do tamanho */
+}
+
+/* Contato + ícones */
+.header_contatos {
     display: flex;
-}
-.col-25{
-    width: 25%;
-    display: flex;
-}
-.header_logo{
-    padding: 10px;  
-    width: 200px;
-    height: 100;
     align-items: center;
+    gap: 20px; /* espaço entre "Contato" e os ícones */
 }
-.header_contatos{
+
+.header_contatos a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Ícones */
+.icones {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+    gap: 15px;
+}
+
+.icones a {
+    color: black;
+    font-size: 22px;
 }
