@@ -44,6 +44,7 @@ body {
     font-size: 22px;
 }
 .nav_container{
+    display: flex;
     background-color: black;
     padding: 10px;
     color: white;
@@ -52,13 +53,16 @@ body {
 .col-50{
     width: 50%;
 }
+.col-60{
+    width: 60%;
+}
 .menu{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
-.col-30{
-    width: 30%;
+.col-40{
+    width: 40%;
 }
 input{
     border: 1px solid;
