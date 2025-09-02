@@ -53,18 +53,30 @@ body {
 .col-50{
     width: 50%;
 }
-.col-60{
-    width: 60%;
-}
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.col-40{
-    width: 40%;
-}
 input{
     border: 1px solid;
     border-radius: 5px;
+}
+.pesquisa{
+        display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h3 {
+    display: inline-block;
+    margin-right: 20px;
+}
+.pesquisa input {
+    padding: 5px 10px;
+    font-size: 16px;
 }
