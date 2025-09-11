@@ -1,0 +1,13 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: chocolate;    
+}
+.header_container{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
